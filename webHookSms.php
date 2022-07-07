@@ -18,7 +18,7 @@
     use Twilio\TwiML\MessagingResponse;
 
     $response = new MessagingResponse();
-    $response->message("This is an incoming text");
+    $response->message("This is an incoming text2");
     print $response;
 
     //need to fix ngrok
