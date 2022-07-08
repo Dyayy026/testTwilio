@@ -12,14 +12,22 @@
 </html>
 <?php
 
-
-
     require_once 'vendor/autoload.php';
     use Twilio\TwiML\MessagingResponse;
 
     $response = new MessagingResponse();
-    $response->message("This is an incoming text2");
+
+    $body = strtolower($_REQUEST['Body']);
+
+    if($body == 'arjay')
+    {
+        $response->message("Hello youtube!");
+    }else
+    {
+        $response->message("I prefer youtube");
+    }
     print $response;
+    print $body;
 
     //need to fix ngrok
 ?>

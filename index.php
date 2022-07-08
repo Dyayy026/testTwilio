@@ -8,7 +8,7 @@
 
     $message = $client->messages->create(
         // the number you'd like to send the message to
-        '+639076730151',
+        '+639076730151', //dapat ganito ang format +639 unahan
         [
             // A Twilio phone number you purchased at twilio.com/console
             'from' => '+19294292856',
