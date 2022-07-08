@@ -1,0 +1,2 @@
+di nakakapagsend ang cp sa twilio 
+pero naka ready na ang twilio for receiving
