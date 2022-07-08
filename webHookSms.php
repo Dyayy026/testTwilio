@@ -19,7 +19,7 @@
 
     $body = strtolower($_REQUEST['Body']);
 
-    if($body == 'arjay')
+    if($body == 'hello')
     {
         $response->message("Hello youtube!");
     }else
